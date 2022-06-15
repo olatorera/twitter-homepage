@@ -1,20 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
-
-// const [text, setText] = useState;
-
-// const inputTextHandler = (e) => {
-//   setText(e.target.value);
-// };
-
-// const handleSubmit = (e) => {
-//   e.preventDefault();
-//   let value = text;
-//   if (value) {
-//     text({ text });
-//   }
-//   setText({ text });
-// };
 
 const Viewpage = () => {
   return (

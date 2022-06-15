@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useState } from "react";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
@@ -12,9 +12,9 @@ const Modal = () => {
   const [userName, setUserName] = useState("");
   const [inputErr, setInputErr] = useState("");
 
-  const handleClick = () => {
-    return Viewpage;
-  };
+  // const handleClick = () => {
+  //   return Viewpage;
+  // };
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!userName) {

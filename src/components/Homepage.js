@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaApple } from "react-icons/fa";
 import Logo from "../images/twitter.png";
 import Background from "../images/background.png";
@@ -7,18 +7,18 @@ import Icon from "../images/tweeter-icon.png";
 import Modal from "./Modal";
 
 const Homepage = () => {
-  const handleClick = () => {
-    return Modal;
-  };
+  //   const handleClick = () => {
+  //     return Modal;
+  //   };
 
   return (
     <div className="Home-page">
       <div className="images">
-        <img src={Background} className="back-ground" />
-        <img src={Logo} className="tweet" />
+        <img src={Background} className="back-ground" alt="bck" />
+        <img src={Logo} className="tweet" alt="logo" />
       </div>
       <div className="sect2">
-        <img src={Icon} className="tweeter" />
+        <img src={Icon} className="tweeter" alt="icon" />
         <h1 className="font-text">Happening now</h1>
         <h1>Join Twitter today</h1>
         <button className="btn-apple">

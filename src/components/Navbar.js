@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="nav-tweeter">
-        <img src={Icon} className="tweeter" />
+        <img src={Icon} className="tweeter" alt="icon" />
       </div>
       <div className="list">
         <ul>
