@@ -1,38 +1,305 @@
-.App {
-  text-align: center;
+/* .App {
+  
+} */
+
+.Home-page {
+display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.images {
+  position: relative;
+  width: 800px;
+  height: 650px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .back-ground {
+  width: 800px;
+  height: 600px;
+  margin-right: 0;
+  padding-right: 0;
+  position: relative;
+  top: 0;
+  border: none;
+}
+
+ .tweet {
+   display: flex;
+   justify-self: center;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 500px;
+  bottom: 250px;
+  color: white;
+  } 
+
+  .tweeter{
+    border: none;
+    color:#61b4e8 ;
+    height: 40px;
+    width: 40px;
   }
+
+.sect2 {
+  padding: 30px;
+  margin: 0;
+  column-gap: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-btn {
+  background-color:rgb(97, 180, 232) ;
+  height: 40px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: none;
+  margin-top: 15px;
+}
+
+.parag {
+  display: flex;
+padding-left: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+.terms {
+margin: 0;
+width: 400px;
+font-size: small;
+}
+
+.em {
+  color: #61b4e8;
+}
+
+.font-text {
+  font-size: xx-large;
+  font-weight: 5000;
+}
+
+/* CSS FOR MODAL */
+
+.modal{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(117, 111, 111);
+}
+
+.frame {
+  height: 550px;
+  width: 500px;
+  border: 1px solid;
+  border-radius: 3%;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.top-icon {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  padding-left: 20px;
+  }
+
+.twitter {
+  height: 30px;
+  width: 30px;
+  color: rgb(97, 180, 232);
+  padding-right: 250px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  border: none;
+  height: 20px;
+  width: 150px;
+  padding-left: 10px;
+  }
+
+.input-content {
+  height: 30px;
+  width: 300px;
+  border: 1px solid rgb(97, 97, 235);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  cursor: pointer;
+}
+
+.input-contents {
+  height: 50px;
+  width: 280px;
+  border: 1px solid rgb(97, 97, 235);
+  cursor: pointer;
+}
+
+.text-next {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.input-next {
+  height: 30px;
+  width: 300px;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-err {
+  color: red;
+  font-size: 12px;
+  padding: 0;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sign{
+  text-decoration: none;
+}
+
+
+/* DESIGN FOR NAVBAR */
+
+.Navbar {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.list {
+  padding-top: 30px;
+}
+
+.nav-icon {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-icon:hover {
+      transition: 0.7s;
+  background-color: rgb(247, 228, 203);
+}
+
+.nav-text {
+  padding: 8px;
+  list-style: none;
+  display: flex;
+  align-self: center;
+}
+
+.tweet-tweet {
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+  background-color: rgb(97, 180, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-tweet {
+color: white;
+}
+
+.profile {
+  margin-top: 1rem;
+}
+
+/* STYLING FOR VIEWPAGE*/
+
+.viewpage {
+  display: flex;
+  height: 100%;
+}
+
+.home-dialog {
+  width: 500px;
+  padding-left: 10px;
+    border: 1px solid wheat;
+    border-bottom:none ;
+  
+}
+
+.home-input {
+  width: 480px;
+  height: 80px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-input:focus {
+  outline: none;
+}
+
+.home-input:hover {
+background-color: rgb(239, 240, 240);
+transition: 0.125s;
+}
+
+.viewpage-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 80px;
+  border: none;
+  background-color: #61b4e8;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.home-txt {
+  color: white;
+  margin: none;
+  padding: none;
 }
