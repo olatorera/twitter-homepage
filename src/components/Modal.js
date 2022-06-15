@@ -4,7 +4,6 @@ import { FaTimes } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import Viewpage from "./Viewpage";
 import { useNavigate } from "react-router-dom";
 
 const Modal = () => {
@@ -74,7 +73,9 @@ const Modal = () => {
         <div className="account">
           <h4>
             Don't have an account?
-            <a className="sign input-content">Sign up</a>
+            <a href="/" className="sign input-content">
+              Sign up
+            </a>
           </h4>
         </div>
       </div>

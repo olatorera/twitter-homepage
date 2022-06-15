@@ -4,7 +4,6 @@ import { FaApple } from "react-icons/fa";
 import Logo from "../images/twitter.png";
 import Background from "../images/background.png";
 import Icon from "../images/tweeter-icon.png";
-import Modal from "./Modal";
 
 const Homepage = () => {
   //   const handleClick = () => {
