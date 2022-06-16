@@ -1,20 +1,22 @@
-/* .App {
-  
-} */
+ /* .App {
+  height: 100vh;
+ }  */
 
 .Home-page {
 display: flex;
+height: 100vh;
+width: 100%;
 }
 
 .images {
   position: relative;
-  width: 800px;
+  width: 770px;
   height: 650px;
 }
 
  .back-ground {
-  width: 800px;
-  height: 600px;
+  width: 770px;
+  height: 100%;
   margin-right: 0;
   padding-right: 0;
   position: relative;
@@ -22,16 +24,28 @@ display: flex;
   border: none;
 }
 
+
+
  .tweet {
-   display: flex;
-   justify-self: center;
-  height: 200px;
-  width: 200px;
-  position: relative;
+  height: 250px;
+  width: 250px;
   right: 500px;
-  bottom: 250px;
-  color: white;
+  bottom: 200px;
+  position: absolute;
+  top: 150px;
+  left: 45px;
+  z-index: 50%;
+  margin-left: 200px;
   } 
+
+  .tweet >svg{
+    color: #fff;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    z-index: 20px;
+  }
 
   .tweeter{
     border: none;
@@ -43,7 +57,11 @@ display: flex;
 .sect2 {
   padding: 30px;
   margin: 0;
-  column-gap: 150px;
+}
+
+.font-text {
+font-style: inherit;
+font-size: 65px;
 }
 
 .input-btn {
@@ -58,6 +76,16 @@ display: flex;
   cursor: pointer;
 }
 
+.btnn {
+  padding-right: 5px;
+  height: 45px;
+  width: 15px;
+}
+
+.btnn-1 {
+  color: rgb(57, 68, 78);
+}
+
 .btn-apple {
   display: flex;
   align-items: center;
@@ -67,32 +95,25 @@ display: flex;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  padding-left: none;
   margin-top: 15px;
 }
 
 .parag {
   display: flex;
-padding-left: 100px;
-padding-top: 10px;
-padding-bottom: 10px;
+  padding-left: 100px;
 
 }
 
 .terms {
 margin: 0;
-width: 400px;
-font-size: small;
+width: 300px;
+font-size: 11px;
 }
 
 .em {
   color: #61b4e8;
 }
 
-.font-text {
-  font-size: xx-large;
-  font-weight: 5000;
-}
 
 /* CSS FOR MODAL */
 
@@ -147,6 +168,7 @@ font-size: small;
   height: 20px;
   width: 150px;
   padding-left: 10px;
+  background-color: white;
   }
 
 .input-content {
@@ -205,32 +227,39 @@ font-size: small;
 
 .Navbar {
   width: 30%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  padding-top: 15px;
 }
 
 .list {
   padding-top: 30px;
 }
 
+.tweeter-nav {
+  padding-left: 175px;
+}
+
 .nav-icon {
   width: 150px;
   height: 50px;
   display: flex;
-  justify-content: center;
   border-radius: 15px;
   align-items: center;
   cursor: pointer;
 }
 
 .nav-icon:hover {
-      transition: 0.7s;
+  transition: 0.7s;
   background-color: rgb(247, 228, 203);
 }
 
+
+
 .nav-text {
   padding: 8px;
+  padding-right: 20px;
   list-style: none;
   display: flex;
   align-self: center;
@@ -259,14 +288,13 @@ color: white;
 
 .viewpage {
   display: flex;
-  height: 100%;
 }
 
 .home-dialog {
   width: 500px;
   padding-left: 10px;
-    border: 1px solid wheat;
-    border-bottom:none ;
+  border: 1px solid wheat;
+  border-bottom:none ;
   
 }
 

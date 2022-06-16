@@ -12,8 +12,8 @@ import { BsPerson } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="Navbar">
-      <div className="nav-tweeter">
-        <img src={Icon} className="tweeter" alt="icon" />
+      <div className="nav-tweeter nav-icon">
+        <img src={Icon} className="tweeter tweeter-nav " alt="icon" />
       </div>
       <div className="list">
         <ul>

@@ -11,9 +11,6 @@ const Modal = () => {
   const [userName, setUserName] = useState("");
   const [inputErr, setInputErr] = useState("");
 
-  // const handleClick = () => {
-  //   return Viewpage;
-  // };
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!userName) {
